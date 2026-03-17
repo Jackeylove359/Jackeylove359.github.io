@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">My Portfolio</h1>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="profile.html" class="active">Profile</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="profile-header">
+            <div class="container">
+                <div class="profile-intro">
+                    <div class="profile-image">
+                        <img src="Images/1.png" alt="My personal portrait" id="profile-img">
+                    </div>
+                    <div class="profile-info">
+                        <h2>Tsunami</h2>
+                        <p class="profile-tagline">Passionate Student | Photography Enthusiast | Traveler</p>
+                        <p class="profile-location">📍 China</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <article class="about-content">
+                    <p>
+                        Hello! My name is Tsunami, and I am a passionate and curious student. I am currently studying at a university in China, majoring in Computer Science. Since childhood, I have been fascinated by technology and innovation, which led me to choose this field. I believe that technology can change the world, and I hope to be part of this transformation.
+                    </p>
+                    <p>
+                        Beyond my studies, I have a wide range of hobbies and interests. Photography is one of my greatest passions. I love capturing beautiful moments in life through my lens. Whether it's the bustling city streets or magnificent natural landscapes, I enjoy recording them through my camera. Photography has taught me how to observe the world and discover the extraordinary in the ordinary.
+                    </p>
+                    <p>
+                        Travel is another activity that fascinates me. I love exploring new places, experiencing different cultures, and meeting friends from around the world. Every trip is an opportunity for learning and growth, broadening my horizons and expanding my thinking. I have visited many cities in China, each leaving a deep impression on me.
+                    </p>
+                    <p>
+                        Reading is also an indispensable part of my life. I enjoy reading various types of books, from technical books to literary works, from historical biographies to science fiction. Reading not only enriches my knowledge but also cultivates my thinking ability and creativity. I believe in the importance of lifelong learning, and reading is one of the best ways to achieve this goal.
+                    </p>
+                    <p>
+                        In the future, I hope to combine my technical knowledge with creativity to create meaningful products and services. I also hope to continue my photography and travel, exploring more unknown places and recording more wonderful stories. Thank you for visiting, and I hope my website helps you better understand me!
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section class="education-section">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <div class="timeline">
+                    <article class="timeline-item">
+                        <div class="timeline-date">2022 - Present</div>
+                        <div class="timeline-content">
+                            <h3>Bachelor of Computer Science</h3>
+                            <p>University in China</p>
+                            <p>Major Courses: Data Structures, Algorithm Design, Web Development, Database Management</p>
+                        </div>
+                    </article>
+                    <article class="timeline-item">
+                        <div class="timeline-date">2019 - 2022</div>
+                        <div class="timeline-content">
+                            <h3>High School Graduate</h3>
+                            <p>Key High School</p>
+                            <p>Science Class, focused on Mathematics and Physics</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills-section">
+            <div class="container">
+                <h2 class="section-title">Skills & Expertise</h2>
+                <div class="skills-grid">
+                    <article class="skill-item">
+                        <h3>Programming Languages</h3>
+                        <p>HTML, CSS, JavaScript, Python, Java</p>
+                    </article>
+                    <article class="skill-item">
+                        <h3>Photography</h3>
+                        <p>Landscape Photography, Portrait Photography, Post-processing</p>
+                    </article>
+                    <article class="skill-item">
+                        <h3>Languages</h3>
+                        <p>Chinese (Native), English (Fluent)</p>
+                    </article>
+                    <article class="skill-item">
+                        <h3>Soft Skills</h3>
+                        <p>Teamwork, Time Management, Problem Solving</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="interactive-section">
+            <div class="container">
+                <h2 class="section-title">Interactive Experience</h2>
+                
+                <div class="input-section">
+                    <label for="username-input">Please enter your name:</label>
+                    <input type="text" id="username-input" placeholder="Enter your name here">
+                    <button id="submit-name" class="btn-primary">Confirm</button>
+                </div>
+
+                <div class="color-section">
+                    <p>Click the button below to change its color:</p>
+                    <button id="color-btn" class="color-change-btn">Click to Change Color</button>
+                </div>
+
+                <div class="popup-section">
+                    <p>Click the button to display screen information:</p>
+                    <button id="info-btn" class="btn-secondary">Show Screen Info</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 My Personal Portfolio. All rights reserved.</p>
+            <p>Built with HTML, CSS, and JavaScript</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
