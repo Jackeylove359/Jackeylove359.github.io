@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - My Portfolio</title>
+    <!-- Link external CSS stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header section containing website title and navigation -->
+    <header>
+        <div class="container">
+            <!-- Website logo/title -->
+            <h1 class="logo">My Portfolio</h1>
+            <!-- Navigation bar using semantic nav tag -->
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <!-- Current page highlighted -->
+                    <li><a href="contact.html" class="active">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main content area -->
+    <main>
+        <!-- Contact page header section -->
+        <section class="contact-header">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <p class="contact-description">
+                    Thank you for visiting my personal website! If you have any questions, suggestions, or just want to say hello, you are very welcome. You can send a message through the contact form below, or reach out to me directly using the contact information provided. Whether it's to discuss studies, share interests, or explore collaboration opportunities, I look forward to hearing from you. I will respond to every message as soon as possible, usually within 24 hours.
+                </p>
+            </div>
+        </section>
+
+        <!-- Contact information and form section -->
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-wrapper">
+                    <!-- Contact information sidebar -->
+                    <aside class="contact-info">
+                        <h3 class="subsection-title">Contact Information</h3>
+                        
+                        <!-- Email -->
+                        <article class="contact-method">
+                            <h4>📧 Email</h4>
+                            <p>1913623236@qq.com</p>
+                            <p class="contact-note">Emails are usually replied within 24 hours</p>
+                        </article>
+
+                        <!-- Phone -->
+                        <article class="contact-method">
+                            <h4>📱 QQ</h4>
+                            <p>1913623236</p>
+                            <p class="contact-note">Available for chat anytime</p>
+                        </article>
+
+                        <!-- Location -->
+                        <article class="contact-method">
+                            <h4>📍 Location</h4>
+                            <p>China</p>
+                            <p class="contact-note">Computer Science Student</p>
+                        </article>
+
+                        <!-- Social Media -->
+                        <article class="contact-method">
+                            <h4>🌐 Social Media</h4>
+                            <p>WeChat: Available via QQ</p>
+                            <p>Email preferred for contact</p>
+                        </article>
+                    </aside>
+
+                    <!-- Contact form -->
+                    <div class="contact-form-wrapper">
+                        <h3 class="subsection-title">Send a Message</h3>
+                        <form id="contact-form" class="contact-form">
+                            <!-- Name input -->
+                            <div class="form-group">
+                                <label for="name">Name <span class="required">*</span></label>
+                                <input type="text" id="name" name="name" required placeholder="Please enter your name">
+                            </div>
+
+                            <!-- Email input -->
+                            <div class="form-group">
+                                <label for="email">Email <span class="required">*</span></label>
+                                <input type="email" id="email" name="email" required placeholder="Please enter your email address">
+                            </div>
+
+                            <!-- Subject input -->
+                            <div class="form-group">
+                                <label for="subject">Subject <span class="required">*</span></label>
+                                <input type="text" id="subject" name="subject" required placeholder="Please enter the message subject">
+                            </div>
+
+                            <!-- Message content -->
+                            <div class="form-group">
+                                <label for="message">Message <span class="required">*</span></label>
+                                <textarea id="message" name="message" rows="6" required placeholder="Please enter your message...
+                                    Tell me your thoughts, questions, or suggestions.
+                                    I will read every message carefully and reply as soon as possible."></textarea>
+                            </div>
+
+                            <!-- Submit button -->
+                            <button type="submit" class="btn-primary btn-full">Send Message</button>
+                        </form>
+
+                        <!-- Form feedback message -->
+                        <div id="form-feedback" class="form-feedback"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ section -->
+        <section class="faq-section">
+            <div class="container">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <div class="faq-list">
+                    <!-- Question 1 -->
+                    <article class="faq-item">
+                        <h3>Q: How long does it usually take you to reply?</h3>
+                        <p>
+                            A: I usually reply to all messages within 24 hours. If it's on weekends or holidays, it may be slightly delayed, but I will try to respond within 48 hours. If it's urgent, I recommend contacting me via QQ.
+                        </p>
+                    </article>
+
+                    <!-- Question 2 -->
+                    <article class="faq-item">
+                        <h3>Q: Can I invite you to photography events?</h3>
+                        <p>
+                            A: Of course! I am very happy to participate in photography-related activities and exchanges. Whether it's photography exhibitions, outdoor shooting activities, or technical sharing sessions, as long as time permits, I am willing to participate. Please contact me through the form or email with the event details.
+                        </p>
+                    </article>
+
+                    <!-- Question 3 -->
+                    <article class="faq-item">
+                        <h3>Q: Do you accept collaboration invitations?</h3>
+                        <p>
+                            A: Yes, I am open to meaningful collaboration projects. Whether it's study groups, photography projects, or technical development, as long as it aligns with my interests and schedule, I am willing to consider it. Please describe the collaboration content in detail, and I will evaluate it carefully before responding.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive section -->
+        <section class="interactive-section">
+            <div class="container">
+                <h2 class="section-title">Interactive Experience</h2>
+                
+                <!-- Username input feature -->
+                <div class="input-section">
+                    <label for="username-input">Please enter your name:</label>
+                    <input type="text" id="username-input" placeholder="Enter your name here">
+                    <button id="submit-name" class="btn-primary">Confirm</button>
+                </div>
+
+                <!-- Button color change feature -->
+                <div class="color-section">
+                    <p>Click the button below to change its color:</p>
+                    <button id="color-btn" class="color-change-btn">Click to Change Color</button>
+                </div>
+
+                <!-- Popup feature -->
+                <div class="popup-section">
+                    <p>Click the button to display screen information:</p>
+                    <button id="info-btn" class="btn-secondary">Show Screen Info</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 My Personal Portfolio. All rights reserved.</p>
+            <p>Built with HTML, CSS, and JavaScript</p>
+        </div>
+    </footer>
+
+    <!-- Link external JavaScript file -->
+    <script src="js/main.js"></script>
+</body>
+</html>
