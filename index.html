@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Home</title>
+    <!-- Link external CSS stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header section containing website title and navigation -->
+    <header>
+        <div class="container">
+            <!-- Website logo/title -->
+            <h1 class="logo">My Portfolio</h1>
+            <!-- Navigation bar using semantic nav tag -->
+            <nav>
+                <ul class="nav-list">
+                    <!-- Current page highlighted -->
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main content area -->
+    <main>
+        <!-- Hero section (first screen display) -->
+        <section class="hero">
+            <div class="container">
+                <!-- Dynamic username display area controlled by JavaScript -->
+                <h2 id="welcome-message">Welcome to My Personal Website</h2>
+                <p class="hero-text">
+                    Hello! I am a passionate student who loves learning and exploring. This website showcases my interests, hobbies, and life moments. Here, you can learn about my personal profile, browse my photo gallery, and get in touch with me. I am enthusiastic about photography, travel, and reading, and I hope to share my stories and experiences with you through this website.
+                </p>
+                <!-- Call-to-action button guiding users to browse more content -->
+                <a href="profile.html" class="btn-primary">Learn More</a>
+            </div>
+        </section>
+
+        <!-- Featured content section displaying three main sections of the website -->
+        <section class="features">
+            <div class="container">
+                <h2 class="section-title">Explore My Website</h2>
+                <div class="feature-grid">
+                    <!-- Profile card -->
+                    <article class="feature-card">
+                        <h3>Profile</h3>
+                        <p>
+                            Learn about my background, education, and interests. I am a passionate student who enjoys challenging myself and continuously learning new skills. On my profile page, you can see my detailed self-introduction and a clear personal portrait photo. I believe everyone has a unique story, and my story is waiting to be shared with you.
+                        </p>
+                        <a href="profile.html" class="btn-secondary">View Profile</a>
+                    </article>
+                    
+                    <!-- Gallery card -->
+                    <article class="feature-card">
+                        <h3>Photo Gallery</h3>
+                        <p>
+                            Browse my personal photo collection featuring 5 carefully selected photos. These photos capture wonderful moments in my life, including my portrait, travel experiences, hobbies, and more. Each photo carries beautiful memories and stories, showcasing my diverse lifestyle and pursuit of beautiful things.
+                        </p>
+                        <a href="gallery.html" class="btn-secondary">Browse Gallery</a>
+                    </article>
+                    
+                    <!-- Contact card -->
+                    <article class="feature-card">
+                        <h3>Contact</h3>
+                        <p>
+                            Want to connect or collaborate with me? Welcome to reach out through the contact page. You can fill out the form to send a message or use the contact information provided directly. I look forward to hearing from you, whether it's to discuss studies, share interests, or explore any interesting topics.
+                        </p>
+                        <a href="contact.html" class="btn-secondary">Contact Me</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive section containing JavaScript feature demonstrations -->
+        <section class="interactive-section">
+            <div class="container">
+                <h2 class="section-title">Interactive Experience</h2>
+                
+                <!-- Username input feature -->
+                <div class="input-section">
+                    <label for="username-input">Please enter your name:</label>
+                    <input type="text" id="username-input" placeholder="Enter your name here">
+                    <button id="submit-name" class="btn-primary">Confirm</button>
+                </div>
+
+                <!-- Button color change feature -->
+                <div class="color-section">
+                    <p>Click the button below to change its color:</p>
+                    <button id="color-btn" class="color-change-btn">Click to Change Color</button>
+                </div>
+
+                <!-- Popup feature -->
+                <div class="popup-section">
+                    <p>Click the button to display screen information:</p>
+                    <button id="info-btn" class="btn-secondary">Show Screen Info</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 My Personal Portfolio. All rights reserved.</p>
+            <p>Built with HTML, CSS, and JavaScript</p>
+        </div>
+    </footer>
+
+    <!-- Link external JavaScript file -->
+    <script src="js/main.js"></script>
+</body>
+</html>
